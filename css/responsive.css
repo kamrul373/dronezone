@@ -1,0 +1,120 @@
+/* 768 px tablet */
+
+@media all and (max-width: 768px){
+	.header-area{
+		padding-bottom: 40px;
+	}
+	.col-20{
+		width: 100%;
+		text-align: center;
+		margin:10px 0;
+	}
+	.col-20 img{
+		width:100px;
+		height: auto;
+	}
+	.col-25{
+		width: 50%;
+		padding:15px;
+	}
+	.col-40{
+		width: 100%;
+		float: none;
+		padding:0 45px;
+	}
+	.col-50{
+		width: 100%;
+	}
+	.col-60{
+		width: 100%;
+		float: none;
+	}
+	.col-70{
+		width: 80%;
+	}
+	.col-80{
+		width: 100%;
+		text-align: center;
+	}
+	.right{
+		float: none;
+	}
+	.air-content{
+		height: auto;
+	}
+	.air-area .content{
+		padding:30px 50px;
+	}
+	.city-content {
+	    height: auto;
+	}
+	.city-content .content{
+		padding:30px 50px;
+	}
+
+}
+@media all and (max-width: 650px){
+	.header-area{
+		padding-bottom: 20px;
+	}
+	.header-content{
+		height: auto;
+		padding:20px 0;
+	}
+	.menu li{
+		display: block;
+	}
+	.menu li a{
+		padding:10px 0;
+	}
+	.menu a:after{
+		position: inherit;
+		border:none;
+		display: block;
+	}
+	.menu a:hover:after{
+		width: 0;
+		margin:0;
+	}
+	a.active:after{
+		width: 0;
+		margin:0;
+	}
+	a.ctn-btn{
+		border:none;
+	}
+	.col-40{
+		padding-right: 0;
+	}
+	.col-60{
+		padding-right: 0;
+	}
+	.col-70{
+		width: 100%;
+	}
+	.nature-area{
+		background: none;
+	}
+	.section-padding{
+		padding:20px 0;
+	}
+}
+@media all and (max-width: 450px){
+	.col-25{
+		width:100%;
+		float:none;
+	}
+	.menu{
+		display: none;
+	}
+	.image{
+		height: 250px;
+	}
+	.w-btn{
+		display: block;
+		margin: 10px 12%;
+	}
+	.p-btn{
+		display: none;
+	}
+}
